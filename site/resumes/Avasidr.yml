@@ -1,0 +1,134 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Ava
+    last_name: Cox
+    
+    # Define yourself in 4-5 words
+    motto: I like helping others
+    
+    # Focus
+    focus: Learning to be the best
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar:
+
+    # Contact Information
+    email: avasidr@a.com #optional
+    phone: 123456789 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Avasidr
+    
+    twitter: 'Avasidr' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: German
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Videogaming
+
+      - item: Hicking
+
+# Your previous education
+education:
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: 
+
+    - degree: 
+      university: 
+      # optional
+      university_logo: 
+      time: 
+      details: 
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: 
+      time: 
+      company: 
+      # optional
+      company_logo: 
+      details: 
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title:
+        # optional
+        project_logo:
+        link: 
+        tagline: 
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & React
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: PHP & MySQL
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
